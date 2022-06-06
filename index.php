@@ -2,13 +2,17 @@
 class Movies
 {
     // variables
+    public $name;
     public $genre;
     public $year;
-    public $name;
+
 
     // method (getter)
-    function get_name($_name)
+    function get_name($name)
     {
         return $this->name;
     }
 }
+
+$film1 = new Movies();
+var_dump($film1);
